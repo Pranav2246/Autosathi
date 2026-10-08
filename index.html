@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AutoSathi - Online Rickshaw Booking</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<header><div class="brand">🛺 AutoSathi</div><nav><a href="#home">Home</a><a href="#book">Book Auto</a><a href="#rides">My Rides</a></nav></header>
+<main>
+<section id="home" class="hero"><div><p class="tag">FAST • SAFE • SIMPLE</p><h1>Book your auto<br><span>in seconds.</span></h1><p>Choose pickup and destination, select a ride and confirm your booking.</p><a class="btn" href="#book">Book an Auto</a></div><div class="auto-art">🛺</div></section>
+<section id="book" class="card"><h2>Book Your Auto</h2>
+<label>Pickup Location</label><input id="pickup" placeholder="e.g. Ratnagiri Bus Stand">
+<label>Destination</label><input id="drop" placeholder="e.g. College Road">
+<div class="row"><div><label>Passengers</label><select id="passengers"><option>1</option><option>2</option><option>3</option></select></div><div><label>Ride Type</label><select id="ride"><option>Auto Rickshaw</option><option>Auto Premium</option></select></div></div>
+<button class="btn full" onclick="bookRide()">Confirm Booking</button><p id="message"></p></section>
+<section id="rides"><h2>Why AutoSathi?</h2><div class="features"><div>📍<b> Easy Booking</b><small>Simple pickup and drop selection.</small></div><div>🛡️<b> Safe Ride</b><small>Clear booking information.</small></div><div>⚡<b> Quick Confirmation</b><small>Instant demo confirmation.</small></div></div></section>
+</main><footer>© 2026 AutoSathi • Online Rickshaw Booking</footer>
+<script src="script.js"></script></body></html>
